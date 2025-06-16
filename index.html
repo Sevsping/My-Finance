@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#1e40af" />
+    <meta name="description" content="Personal Expense Control React Application" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>MyFinance - Controle de Gastos Pessoais</title>
+
+    <!-- Google Fonts: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+      html, body, #root {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        font-family: 'Inter', sans-serif;
+        background: linear-gradient(135deg, #000c05 0%, #07532d 100%);
+        color: #f3f4f6;
+      }
+      body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+      header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 64px;
+      background-color: #010f03;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 3rem; 
+      letter-spacing: 0.05em;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+      z-index: 1000;
+      }
+
+      main#root {
+        margin-top: 64px;
+        margin-bottom: 64px;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+      }
+      footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 64px;
+  
+        background: linear-gradient(135deg, #000000 0%, #043b1b 100%);
+        color: #a0f0a0; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.875rem;
+        user-select: none;
+        z-index: 1000;
+      }
+
+    </style>
+  </head>
+  <body>
+    <header>
+      My Finance
+    </header>
+
+    <main id="root">
+      
+    </main>
+
+  <footer class="bg-green-900 text-white text-center p-4 select-none">
+ 
+  <p class="text-white-400 italic text-lg font-semibold mt-1">Desenvolvido com 💚 para seu bolso.</p>
+ 
+
+</footer>
+</footer>
+
+
+  </body>
+</html>
